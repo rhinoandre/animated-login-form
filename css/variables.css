@@ -1,0 +1,10 @@
+form {
+  /* almost white background color */
+  --bgColorH: 0;
+  --bgColorS: 0%;
+  --bgColorL: 98%;
+  /* dark blue foreground color */
+  --fgColorH: 210;
+  --fgColorS: 50%;
+  --fgColorL: 38%;
+}

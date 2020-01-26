@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Interactive Login form</title>
+    <link href="css/index.css" type="text/css" rel="stylesheet" />
+</head>
+<body>
+    <form method="post" action="javascript: void(0);" id="login-form" class="login-form" autocomplete="off">
+        <h1>Login form</h1>
+        <figure>
+          <!-- Placeholder for the image -->
+        </figure>
+        <div>
+          <label class="required">
+            <span>Username</span>
+            <input type="text" name="username" id="username" placeholder="Username" required />
+          </label>
+        </div>
+        <div>
+          <label class="required">
+            <span>Password</span>
+            <input type="password" name="password" id="password" placeholder="Password" required />
+          </label>
+        </div>
+        <div>
+          <label>
+            <input class="a11y-hidden" type="checkbox" name="show-password" id="show-password" />
+            <span class="checkbox-label">Show Password</span>
+          </label>
+        </div>
+        <input type="submit" value="Log In" name="submit" id="submit" />
+        <div class="forgot-password">
+          <a href="#">Forgot password?</a>
+        </div>
+      </form>
+      <script src="index.js"></script>
+</body>
+</html>

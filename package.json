@@ -1,0 +1,15 @@
+{
+  "name": "interective-login-css",
+  "version": "1.0.0",
+  "description": "Following along with a tutorial on dev.to",
+  "main": "index.js",
+  "author": "rhinoandre@gmail.com",
+  "license": "MIT",
+  "devDependencies": {
+    "parcel-bundler": "^1.12.4"
+  },
+  "scripts": {
+    "start": "parcel index.html"
+  },
+  "dependencies": {}
+}
